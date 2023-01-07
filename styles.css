@@ -1,0 +1,152 @@
+.header {
+    overflow:hidden;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    background-color:#1F2937;
+    padding: 10px;;
+}
+.header a{
+    float:left;
+    color:#F9FAF8;
+    text-align:center;
+    padding:12px;
+    text-decoration:none;
+    font-size:24px;
+    border-radius:4px;
+}
+.header a.logo {
+    font-size:24px;
+}
+.header a.active {
+    text-align:end;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.container {
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    padding:20px;
+}
+.item1 {
+    flex:1;
+    background-color: #1F2937;
+    padding:10px;
+}
+.item2 {
+    background-color: #1F2937;
+    padding: 10px;
+}
+.h1top {
+    color: #E5E7EB;
+    font-size: 48px;
+    flex-wrap: wrap;
+}
+.ptop {
+    color:#E5E7EB;
+    flex-wrap: wrap;
+}
+.button1 {
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+.C2I1 {
+    flex:1;
+    align-items: center;
+    padding:10px;
+
+}
+.C2I2 {
+    flex:1;
+    align-items: center;
+    padding:10px;
+}
+.C2I3 {
+    flex:1;
+    align-items: center;
+    padding:10px;
+}
+.C2I4 {
+    flex:1;
+    align-items: center;
+    padding:10px;
+}
+.punderimgs {
+    font-size: xx-small;
+    flex-wrap: wrap;
+    color:#1F2937;
+}
+.h1middle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+.container3 {
+    display:flex;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.quotes1 {
+    flex: 1;
+}
+.quotes2 {
+    flex:1;
+    align-items: center;
+    font-weight: light;
+    font-style: italic;
+}
+.quotes3 {
+    flex:1;
+}
+.container4 {
+    border-radius: 8px;
+    margin:50px 50px;
+    border: none;
+    display: flex;
+    height:150px;
+    background-color: #3882F6;
+}
+.bottom1 {
+    color:#E5E7EB;
+    align-items: center;
+    border:none;
+    border-radius:12px;
+    padding:30px;
+    flex:1;
+    background-color: #3882F6;
+}
+
+.button2 {
+    margin:75px 25px;
+    flex:1;
+    align-items: center;
+    color:#E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+}
+.container5{
+    height: 50px;
+    width:100%;
+    background-color: #1F2937;
+    padding: 10px;
+}
+.copyright {
+    font-size: small;
+    color:#E5E7EB;
+    text-align: center;
+}
